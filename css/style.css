@@ -7,10 +7,38 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.global-header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-left: 215px;
+}
+
+.nav-container {
+  margin-left: 93px;
+}
+.global-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.main-navigation {
+  display: flex;
+  gap: 50px;
+  padding-left: 0px;
+}
+
+.contact-container {
+  margin-left: 385px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 0px;
+}
 .logo {
   text-decoration: none;
-  margin-top: 24px;
-  margin-left: 215;
+}
+a .logo {
+  margin-left: 215px;
 }
 .web {
   color: #2196f3;
@@ -42,6 +70,7 @@ nav a {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
 .contacts {
   text-decoration: none;
   color: #757575;
@@ -59,23 +88,35 @@ a:active {
   color: var(--active-link);
 }
 .title-main {
-  background: #2f303a;
   width: 1600px;
   height: 600px;
   flex-shrink: 0;
-  padding: 200px 452px 280px 452px;
+  background: #2f303a;
+  align-items: center;
+  
 }
+
+
+
 h1 {
   width: 696px;
   color: #fff;
   text-align: center;
+  font-family: Roboto;
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
   line-height: 60px; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  margin: auto;
+  padding-top: 200px;
+  
 }
+.btn-request {
+  text-align: center;
+}
+
 .button-request {
   color: #fff;
   font-size: 16px;
@@ -88,12 +129,14 @@ h1 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: unset;
   padding: 10px 19px 10px 20px;
+  margin-top: 40px;
 }
 .button-request:hover {
   cursor: pointer;
   background-color: #188ce8;
 }
 .btn-filter {
+  height: 38px;
   color: #212121;
   text-align: center;
   font-size: 16px;
@@ -130,6 +173,25 @@ h2 {
   line-height: normal;
   letter-spacing: 1.08px;
 }
+.wwd-photo h2 {
+  margin: auto auto 50px auto;
+}
+.our-team h2 {
+  width: auto;
+  margin: 0px auto 0px auto;
+  padding-top: 94px;
+}
+.what-we-do {
+  border: ;
+}
+
+.what-we-do-container {
+  padding: 0px;
+  width: 1170px;
+  margin: 64px 215px 94px 215px;
+  gap: 30px;
+  margin-left: 215px;
+}
 .what-we-do h3 {
   width: 270px;
   color: #212121;
@@ -152,9 +214,24 @@ h2 {
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
-.our-team {
-  background: #f5f4fa;
+.wwd-photo {
+  width: 1170px;
+  margin-left: 215px;
 }
+.wwd-photo h2 {
+  width: 1170px;
+  margin: o;
+  align-content: center;
+}
+.our-team {
+  height: 648px;
+  background: #f5f4fa;
+  margin-top: 94px;
+}
+.card-team p {
+  text-align: center;
+}
+
 .card-team {
   width: 270px;
   height: 368px;
@@ -166,6 +243,11 @@ h2 {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
+.our-team div .our-team-container {
+  margin-bottom: 94px;
+  padding-top: 50px;
+}
 .our-team h3 {
   color: #212121;
   font-family: Roboto;
@@ -174,24 +256,38 @@ h2 {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
-}
-.our-team span {
-  color: #757575;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.our-team p {
+  color: #757575;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .footer {
+  height: 251px;
   background: #2f303a;
 }
 footer .studio {
   color: #fff;
 }
-.adress a {
+footer .logo {
+  margin-left: 215px;
+  padding-bottom: 28px;
+  margin-top: 60px;
+}
+.footer div {
+  padding-top: 60px;
+}
+.address a {
   flex-shrink: 0;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
@@ -201,8 +297,10 @@ footer .studio {
   line-height: 16px;
   letter-spacing: 0.42px;
   text-decoration: none;
+  margin-left: 215px;
+  margin-top: 28px;
 }
-.adress span {
+.address span {
   flex-shrink: 0;
   color: #fff;
   font-family: Roboto;
@@ -211,6 +309,8 @@ footer .studio {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.42px;
+  margin-left: 215px;
+  margin-top: 28px;
 }
 .photo-filter h3 {
   color: #212121;
@@ -221,7 +321,7 @@ footer .studio {
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
 }
-.photo-filter span {
+.photo-filter p {
   width: 322px;
   color: #757575;
   font-family: Roboto;
@@ -231,11 +331,84 @@ footer .studio {
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
 }
-.adress a:focus {
+.address a:focus {
   color: #2196f3;
 }
-.photo-filteri-list {
+.product-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.photo-filter-list {
   width: 370px;
   height: 404px;
   flex-shrink: 0;
+}
+.buton-product {
+  
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 0px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.photo-filter {
+  align-content: flex-start;
+  gap: 30px;
+  margin-right: 0px;
+}
+.photo-filter-list {
+  width: 370px;
+  height: 404px;
+  flex-shrink: 0;
+  border: 1px solid #eee;
+  background: #fff;
+  margin-right: 0px;
+}
+.what-we-do-container {
+  display: flex;
+}
+.what-we-do-photos {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.our-team-container {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+footer div .address {
+  margin-top: 28px;
+}
+
+
+.btn1 .btn-filter {
+  width: 64px;
+  flex-shrink: 0;
+}
+.btn2 .btn-filter {
+  width: 120px;
+  flex-shrink: 0;
+}
+.btn3 .btn-filter {
+  width: 83px;
+  flex-shrink: 0;
+}
+.btn4 .btn-filter {
+  width: 96px;
+  flex-shrink: 0;
+}
+.btn5 .btn-filter {
+  width: 121px;
+  flex-shrink: 0;
+}
+.photo-filter {
+  display: flex;
+  flex-wrap: wrap;
 }
