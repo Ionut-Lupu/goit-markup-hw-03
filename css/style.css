@@ -153,9 +153,11 @@ h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
-  /* 162.5% */
+  padding: 6px 22px;
   letter-spacing: 0.48px;
   border: unset;
+  border-radius: 4px;
+  background: #F5F4FA;
 }
 
 .btn-filter:hover {
@@ -375,12 +377,14 @@ footer .logo {
 
 .photo-filter-list h3 {
   width: 322px;
-  margin: 20px 24px 4px 24px;
+  margin: 0px 24px 4px 24px;
+  padding-top: 20px;
 }
 
 .photo-filter-list p {
   width: 322px;
   margin: 4px 24px auto 24px;
+  
 }
 
 .photo-filter-list {
@@ -405,6 +409,8 @@ footer .logo {
   width: 370px;
   height: 110px;
   border: 1px solid #eee;
+  border-top: 0px
+  
 }
 
 .buton-product {
@@ -440,27 +446,3 @@ footer div .address {
   margin-top: 28px;
 }
 
-.btn1 .btn-filter {
-  width: 64px;
-  flex-shrink: 0;
-}
-
-.btn2 .btn-filter {
-  width: 120px;
-  flex-shrink: 0;
-}
-
-.btn3 .btn-filter {
-  width: 83px;
-  flex-shrink: 0;
-}
-
-.btn4 .btn-filter {
-  width: 96px;
-  flex-shrink: 0;
-}
-
-.btn5 .btn-filter {
-  width: 121px;
-  flex-shrink: 0;
-}
