@@ -93,10 +93,7 @@ a:active {
   flex-shrink: 0;
   background: #2f303a;
   align-items: center;
-  
 }
-
-
 
 h1 {
   width: 696px;
@@ -111,7 +108,6 @@ h1 {
   text-transform: uppercase;
   margin: auto;
   padding-top: 200px;
-  
 }
 .btn-request {
   text-align: center;
@@ -173,16 +169,11 @@ h2 {
   line-height: normal;
   letter-spacing: 1.08px;
 }
-.wwd-photo h2 {
-  margin: auto auto 50px auto;
-}
+
 .our-team h2 {
   width: auto;
   margin: 0px auto 0px auto;
   padding-top: 94px;
-}
-.what-we-do {
-  border: ;
 }
 
 .what-we-do-container {
@@ -220,8 +211,8 @@ h2 {
 }
 .wwd-photo h2 {
   width: 1170px;
-  margin: o;
   align-content: center;
+  margin: auto auto 50px auto;
 }
 .our-team {
   height: 648px;
@@ -344,8 +335,17 @@ footer .logo {
   height: 404px;
   flex-shrink: 0;
 }
+.photo-filter-list h3 {
+  width: 322px;
+  margin: 20px 24px 4px 24px;
+}
+
+.photo-filter-list p {
+  width: 322px;
+  margin: 4px 24px auto 24px;
+}
+
 .buton-product {
-  
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -387,7 +387,6 @@ footer div .address {
   margin-top: 28px;
 }
 
-
 .btn1 .btn-filter {
   width: 64px;
   flex-shrink: 0;
@@ -411,4 +410,7 @@ footer div .address {
 .photo-filter {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-left: 0px;
 }
