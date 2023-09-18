@@ -410,9 +410,11 @@ footer .logo {
   height: 110px;
   border: 1px solid #eee;
   border-top: 0px
-  
 }
-
+.card-img-top {
+  width: 370px;
+  height: 294px;
+}
 .buton-product {
   display: flex;
   justify-content: center;
